@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MODERN MARK - Home</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #121212;
+      color: #fff;
+      line-height: 1.6;
+    }
+    header {
+      background: #000;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #333;
+    }
+    .logo {
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: #fff;
+    }
+    nav a {
+      color: #ccc;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #fff;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1521335629791-ce4aec67dd47') no-repeat center center/cover;
+      height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      background: rgba(0, 0, 0, 0.6);
+      padding: 1rem 2rem;
+      border-radius: 10px;
+    }
+    .section {
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    .product {
+      background: #1e1e1e;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      border-top: 1px solid #333;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">MODERN MARK</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#about">About</a>
+      <a href="#shop">Shop</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Wear the Shadow. Rule the Streets.</h1>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p style="max-width: 800px; margin: 1rem auto;">
+      MODERN MARK is not just a clothing brand — it's a movement. We blend urban streetwear with bold statements that reflect the spirit of the modern generation. Every stitch, every fabric, and every design represents power, confidence, and a commitment to being unapologetically authentic. Join us as we redefine fashion with edge and elegance.
+    </p>
+  </section>
+
+  <section id="shop" class="section">
+    <h2>Our T-Shirts</h2>
+    <div class="products">
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f" alt="Classic Black Tee" />
+        <h3>Classic Black Tee</h3>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1602810311410-7de9b3f65c07" alt="Minimalist White Tee" />
+        <h3>Minimalist White Tee</h3>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1587582423110-b7d58155f6b6" alt="Urban Oversized Tee" />
+        <h3>Urban Oversized Tee</h3>
+      </div>
+      <div class="product">
+        <img src="https://images.unsplash.com/photo-1588776814546-d2a8e1b6f7dd" alt="Street Vibes Tee" />
+        <h3>Street Vibes Tee</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Phone: <strong>9967453141</strong></p>
+    <p>Email: <em>contact@modernmark4545.com</em> (placeholder)</p>
+  </section>
+
+  <footer>
+    &copy; 2025 MODERN MARK. All rights reserved.
+  </footer>
+</body>
+</html>
